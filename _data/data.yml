@@ -25,7 +25,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://github.com/cgarciae/cv/raw/master/cgarciae_github_io_cv.pdf
 
     languages:
       - idiom: Spanish
@@ -47,7 +47,7 @@ career-profile:
     summary: |
       Machine Learning Engineer and Software Developer with a background in math and physics. Extensive experience creating ML applications in fields such as autonomous vehicles, video analytics, and manufacturing. Strong combination of theory, coding, and infrastructure knowledge geared toward the creation of real products world product. Contributor to various Python open source projects, community leader, and active speaker at world-wide conferences. Member of Toptal.
 education:
-    - degree: Mathematical Engneering
+    - degree: Mathematical Engineering
       university: Universidad EAFIT
       time: 
       details:
