@@ -53,6 +53,11 @@ education:
       details:
 
 experiences:
+    - role: Senior Software Engineer (Machine Learning)
+      time: 2020 - Present
+      company: Quansight
+      details: |
+        Currently working as a contributor to the Flax Open Source framework for Deep Learning with the Google Brain team.
     - role: Senior Machine Learning Engineer
       time: 2019 - 2020
       company: Snappr Inc, Medellin
