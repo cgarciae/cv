@@ -3,8 +3,7 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -15,13 +14,11 @@ sidebar:
     # Sidebar links
     email: cgarcia.e88@gmail.com
     phone:
-    timezone: GMT-5
-    citizenship: Colombian 🇨🇴 / Spanish 🇪🇸
-    website:
+    website: #do not add http://
     linkedin: cgarciae
-    xing:
-    github:
-    telegram: # add your nickname without '@' sign
+    # xing: alandoe
+    github: cgarciae
+    telegram:
     gitlab:
     bitbucket:
     twitter: cgarciae88
@@ -31,46 +28,31 @@ sidebar:
     pdf: https://github.com/cgarciae/cv/raw/master/cgarciae_github_io_cv.pdf
 
     languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+      - idiom: Spanish
+        level: Native
 
-        - idiom: French
-          level: Professional
+      - idiom: English
+        level: Professional
 
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+    # interests:
+    #   - item: Tennis
+    #     link:
+    #   - item: Nintendo
+    #     link:
+    #   - item: Anime
+    #     link:
 
 career-profile:
     title: Career Profile
     summary: |
       Machine Learning Engineer with extensive experience in the industry in fields such as autonomous vehicles, video analytics, and manufacturing. Contributor to various Python JAX-related open source projects (Flax, Elegy, Treex), speaker, host of the JAX Global Meetup and the Machine Learning Meetup Medellin. 
 education:
-    title: Education
-    info:
-      - degree: Mathematical Engineering
-        university: Universidad EAFIT
-        time: 
-        details:
-
-
+    - degree: Mathematical Engineering
+      university: Universidad EAFIT
+      time: 
+      details:
 
 experiences:
-  title: Experiences
-  info:
     - role: Senior Software Engineer (Machine Learning)
       time: 2020 - Present
       company: Quansight
@@ -118,47 +100,6 @@ experiences:
         Python for Entity extracting using NLTK. Created a generic ML prediction
         service using Scikit Learning and Flask
 
-# certifications:
-#       title: Certifications
-#       list:
-#         - name: CV Builder
-#           start: 2020
-#           end: 2021
-#           organization: Microsoft
-#           credentialid: 111-222
-#           credentialurl: www.google.com
-#           credentialname: Google
-#           details: |
-#             Details about cert. Lorem ipsum dolor sit amet, consectetur
-#             adipiscing elit.
-#             Nullam eget orci purus. Nullam ultrices neque nibh.
-#             Aenean fermentum, felis vulputate suscipit accumsan,
-#             sem enim bibendum augue, sed convallis arcu lacus at dui.
-#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#             Praesent venenatis erat non augue suscipit consectetur.
-
-#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
-#             justo diam viverra velit, sed rhoncus leo leo eu justo.
-#             Suspendisse placerat risus ante, sed porta nisi blandit at.
-#         - name: Git learning
-#           start: 2019
-#           end:
-#           organization: Microsoft
-#           credentialid: 111-222
-#           credentialurl: www.github.com
-#           credentialname: Github
-#           details: |
-#             Older certification. Lorem ipsum dolor sit amet, consectetur
-#             adipiscing elit.
-#             Nullam eget orci purus. Nullam ultrices neque nibh.
-#             Aenean fermentum, felis vulputate suscipit accumsan,
-#             sem enim bibendum augue, sed convallis arcu lacus at dui.
-#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#             Praesent venenatis erat non augue suscipit consectetur.
-
 projects:
     title: Projects
     intro: >
@@ -204,36 +145,10 @@ projects:
 #         authors: Donald E. Knuth
 #         conference: Addison-Wesley, 1968
 
-# oss:
-#     title: OSS Contributions
-#     intro: >
-#       You can list your open source software contributions in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     contributions:
-#       - title: Tempo
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
 #         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-# publications:
-#     title: Publications
-#     intro: |
-#       You can list your publications in this section. Lorem ipsum dolor sit
-#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#       bibendum fringilla a eu lectus.
-#     papers:
-#       - title: The Art of Computer Programming
-#         link: "#"
-#         authors: Donald E. Knuth
-#         conference: Addison-Wesley, 1968
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
 #       - title: A syntax directed compiler for Algol 60
 #         link: "#"
