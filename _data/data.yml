@@ -245,10 +245,10 @@ skills:
 
     toolset:
       - name: Python
-        level: 95%
-      - name: TensorFlow
-        level: 95%
+        level: 100%
       - name: JAX
+        level: 100%
+      - name: TensorFlow
         level: 95%
       - name: Scikit-Learn
         level: 95%
