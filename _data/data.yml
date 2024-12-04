@@ -68,11 +68,16 @@ education:
 experiences:
   title: Experiences
   info:
+    - role: Software Enginner
+      time: 2023 - Present
+      company: Google DeepMind
+      details: |
+        Lead developer of the Flax NNX Neural Networks API for JAX at DeepMind.
     - role: Senior Software Engineer (Machine Learning)
-      time: 2020 - Present
+      time: 2020 - 2023
       company: Quansight
       details: |
-        Currently working as a contributor to the Flax Open Source framework for Deep Learning with the Google Brain team.
+        Working on an Open Source Neural Networks framework with the Google Brain team.
     - role: Senior Machine Learning Engineer
       time: 2019 - 2020
       company: Snappr Inc, Medellin
